@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: de.christopherstock.strategy.Main
+Class-Path: lib/gdx.jar lib/gdx-backend-lwjgl.jar
+Created-By: Christopher Stock
+Specification-Title: Strategy
+Specification-Vendor: Christopher Stock
+Specification-Version: 0.0.5
+Implementation-Title: Strategy
+Implementation-Vendor: Christopher Stock
+Implementation-Version: 0.0.5

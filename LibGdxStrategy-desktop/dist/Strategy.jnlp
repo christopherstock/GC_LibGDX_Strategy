@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0+" codebase="http://strategy.jenetic.de" href="Strategy.jnlp">
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <information>
+        <title>Strategy</title>
+        <version>0.0.5</version>
+        <vendor>Christopher Stock</vendor>
+        <homepage href="http:/www.christopherstock.de" />
+        <description>A Strategy game engine using LibGDX.</description>
+        <icon kind="splash" href="http://strategy.jenetic.de/java_rocks.png" />
+        <offline-allowed />
+    </information>
+
+    <resources>
+
+        <j2se href="http://java.sun.com/products/autodl/j2se" version="1.5+" initial-heap-size="1024M" max-heap-size="1024M" />
+
+        <jar href="Strategy.jar" />
+
+        <jar href="lib/gdx.jar" />
+        <jar href="lib/gdx-backend-lwjgl.jar" />
+
+        <nativelib href="lib/native/gdx-backend-lwjgl-natives.jar"/>
+        <nativelib href="lib/native/gdx-natives.jar"/>
+
+    </resources>
+
+    <application-desc main-class="de.christopherstock.strategy.Main" />
+
+</jnlp>
